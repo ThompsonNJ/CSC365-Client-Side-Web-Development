@@ -1,0 +1,99 @@
+/* Nick Thompson */
+
+/* HTML */
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: horizontal vertical;
+}
+
+/* Header */
+header {
+    border-bottom: 2px black solid;
+
+}
+
+header img {
+    float: left;
+    margin-left: 1em;
+}
+
+header h2 {
+    text-indent: 25px;
+    font-size: 230%;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    margin-bottom: 0;
+
+}
+
+header h3 {
+    text-indent: 25px;
+    font-size: 125%;
+    margin-top: 0;
+
+}
+
+/* Body */
+body {
+    font-family: Arial, Veranda, sans-serif;
+    width: 800px;
+    background-color: white;
+    border: black 5px solid;
+    box-shadow: 0 0 15px black;
+    /*center the body element within its containing block */
+    margin: 0 auto;
+}
+
+/* Main */
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+main h1 {
+    font-size: 140%;
+}
+
+main h1:first-letter {
+    font-size: 200%;
+}
+
+main h2 {
+    font-size: 125%;
+}
+
+main h3 {
+    font-size: 110%;
+}
+
+/* Anchor */
+a {
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: orange;
+}
+
+a:hover,
+a:focus {
+    color: green;
+}
+
+/* Lists */
+li {
+    padding: 0.1em;
+}
+
+
+/* Footer */
+footer {
+    border-top: 2px black solid;
+}
+
+footer p {
+    font-size: 90%;
+    text-align: center;
+}
