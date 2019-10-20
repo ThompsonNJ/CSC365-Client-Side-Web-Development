@@ -1,0 +1,219 @@
+/* Nick Thompson */
+
+/* HTML */
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: horizontal vertical;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    /*border-bottom: 1px black solid;*/
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%));
+
+    /* IE 10+ */
+    background: -ms-linear-gradient(45deg, white 0%, orange 75%, black 100%));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%));
+}
+
+header img {
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+header h2 {
+    margin: 0;
+    padding-top: 25px;
+    text-indent: 25px;
+    font-size: 230%;
+    color: orange;
+    font-style: italic;
+    margin-bottom: 0;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+header h3 {
+    text-indent: 25px;
+    font-size: 125%;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+/* Body */
+body {
+    font-family: Arial, Veranda, sans-serif;
+    width: 800px;
+    background-color: white;
+    border: black 5px solid;
+    box-shadow: 0 0 15px black;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/* Main */
+main {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main h1 {
+    font-size: 140%;
+}
+
+main h1:first-letter {
+    font-size: 200%;
+}
+
+main h2 {
+    font-size: 125%;
+}
+
+main h3 {
+    font-size: 110%;
+}
+
+section {
+    margin-left: 160px;
+    padding-top: 5px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    padding-top: 30px;
+}
+
+#sidebar li a {
+    display: block;
+    color: black;
+    padding: 6px 12px;
+    background-color: orange;
+    border: black 2px solid;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3px;
+}
+
+#sidebar li a:hover {
+    background-color: black;
+    color: orange;
+}
+
+#sidebar aside {
+    float: left;
+    width: 160px;
+    clear: right;
+
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+#navbar ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 19.55%;
+}
+
+#navbar ul li a {
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+#navbar ul li a.current {
+    color: orange;
+}
+
+#navbar ul li a.current:hover {
+    background-color: gray;
+    color: orange;
+}
+
+#navbar ul ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+#navbar ul ul li{
+    width: 100%;
+}
+
+#navbar ul li:hover>ul,
+#navbar ul li:focus>ul,
+#navbar ul li:hover>ul li,
+#navbar ul li:focus>ul li {
+    display: block;
+    max-width: 157px;
+    float: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+/* Footer */
+footer {
+    clear: both;
+    border-top: 2px black solid;
+    background: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%));
+
+    /* IE 10+ */
+    background: -ms-linear-gradient(45deg, black 0%, orange 25%, white 100%));
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%));
+}
+
+footer p {
+    font-size: 90%;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 10px;
